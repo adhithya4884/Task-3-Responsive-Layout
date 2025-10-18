@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Header Section</h1>
+            <p>Welcome to our responsive webpage!</p>
+        </header>
+
+        <div class="main-layout">
+            <aside>
+                <h2>Sidebar</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </aside>
+            <main>
+                <h2>Main Content Area</h2>
+                <p>
+                    This is the main content section. On larger screens, it appears next to the sidebar, creating a grid layout. 
+                    However, on smaller screens (like mobile devices), this section will stack below the sidebar for better readability and user experience.
+                </p>
+                <p>
+                    This responsive behavior is achieved using CSS media queries. We define the mobile layout first (stacked, single column) 
+                    and then apply different styles for screens that are "medium" or wider.
+                </p>
+            </main>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Responsive Layout. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
